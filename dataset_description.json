@@ -1,0 +1,48 @@
+{
+	"Name": "P300 dataset BI2014b from a \"Brain Invaders\" experiment",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Louis Korczowski",
+		"Ekaterina Ostaschenko",
+		"Anton Andreev",
+		"Gr\u00e9goire Cattan",
+		"Pedro Luiz Coelho Rodrigues",
+		"Violette Gautheret",
+		"Marco Congedo"
+	],
+	"Acknowledgements": "At the end of the experiment two tickets of cinema were offered to each subject, for a total value of 15 euros per subject.",
+	"EthicsApprovals": [
+		"Ethical Committee of the University of Grenoble Alpes (Comit\u00e9 d'Ethique pour la Recherche Non-Interventionnelle)"
+	],
+	"ReferencesAndLinks": [
+		"https://doi.org/10.5281/zenodo.3267301",
+		"hal-02173958"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "https://doi.org/10.5281/zenodo.3267301",
+			"URL": "https://doi.org/10.5281/zenodo.3267301"
+		}
+	],
+	"Keywords": [
+		"Electroencephalography (EEG)",
+		"P300",
+		"Brain-Computer Interface (BCI)",
+		"Experiment",
+		"Collaboration",
+		"Multi-User",
+		"Hyperscanning"
+	],
+	"PublicationYear": 2019
+}
