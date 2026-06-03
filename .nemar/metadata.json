@@ -1,0 +1,100 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Louis Korczowski": {},
+    "Ekaterina Ostaschenko": {
+      "orcid": "0000-0002-4817-5753",
+      "affiliations": [
+        {
+          "name": "GIPSA-lab"
+        }
+      ]
+    },
+    "Anton Andreev": {},
+    "Grégoire Cattan": {
+      "orcid": "0000-0002-7515-0690",
+      "affiliations": [
+        {
+          "name": "GIPSA-lab"
+        }
+      ]
+    },
+    "Pedro Luiz Coelho Rodrigues": {},
+    "Violette Gautheret": {},
+    "Marco Congedo": {
+      "orcid": "0000-0003-2196-0409",
+      "affiliations": [
+        {
+          "name": "GIPSA-lab"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.3267301",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000215",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000215",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "P300 dataset BI2014b from a \"Brain Invaders\" experiment",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "420.4 MB (39 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises electroencephalographic recordings from 38 healthy subjects engaged in a multi-user P300-based brain-computer interface experiment called Brain Invaders. Participants played in pairs across three conditions (Solo1, Solo2, and Collaboration) using a visual oddball paradigm with 36 symbols to elicit P300 responses. The study investigates inter-brain synchrony during collaborative BCI gaming, with 32-channel EEG recordings sampled at 512 Hz using wet electrodes in a standard 10-10 montage.",
+  "methods_description": "Multi-user hyperscanning P300 BCI experiment conducted at GIPSA-lab, Grenoble, France in 2014. Participants played Brain Invaders 2 in three randomized conditions: Solo1 (player1 active, player2 observes cross), Solo2 (roles reversed), and Collaboration (both players active). Each game session consisted of 9 levels with predefined alien configurations. Visual stimuli used 12 flashes per repetition of pseudo-random groups of 6 symbols (1:5 Target:Non-Target ratio). EEG was recorded using 32 active wet Ag/AgCl electrodes (g.tec g.GAMMAcap) referenced to right earlobe with ground at Fz, sampled at 512 Hz via g.USBamp hardware. Real-time adaptive RMDM classifier provided online visual feedback. Experimental tags were synchronized using USB analog-to-digital converter to minimize jitter.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "hyperscanning"
+    },
+    {
+      "term": "inter-brain synchrony"
+    },
+    {
+      "term": "collaborative BCI"
+    }
+  ],
+  "source_hash": "0999887a643d8af1101b2d52860b5aa6ba8fc808f79a89fd30fd223b9263e672"
+}
