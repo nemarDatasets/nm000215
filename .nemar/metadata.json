@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "P300 dataset BI2014b from a \"Brain Invaders\" experiment",
-  "description": "EEG recordings from 38 healthy participants playing in pairs the multi-user version of Brain Invaders, a visual P300-based brain-computer interface using the oddball paradigm on a grid of 36 symbols. Data were recorded with 32 wet electrodes per subject across three randomized conditions (Solo1, Solo2, Collaboration) at GIPSA-lab, Grenoble, in 2014. The dataset supports research on collaborative BCIs and inter-brain synchrony in hyperscanning.",
-  "methods_description": "Pairs of participants played Brain Invaders 2 in three randomized conditions: Solo1, Solo2, and Collaboration. Each game session had 9 levels with predefined alien configurations, and a repetition consisted of 12 flashes of pseudo-random groups of 6 symbols. EEG was recorded at 512 Hz from 32 active wet Ag/AgCl electrodes per subject with g.USBamp amplifiers, referenced to the right earlobe with ground at Fz. Experimental tags were synchronized via a USB analog-to-digital converter. A real-time adaptive Riemannian minimum distance to mean classifier provided online feedback. In the solo conditions the non-playing participant watched a cross, which controls for fake inter-brain synchrony.",
+  "description": "EEG recordings from 38 healthy participants playing in pairs the multi-user version of Brain Invaders, a visual P300-based brain-computer interface using an oddball paradigm on a grid of 36 symbols. Data were collected with 32 wet electrodes per subject across three randomized conditions (Solo1, Solo2, Collaboration) to study inter-brain synchrony in collaborative BCI. The experiment was conducted at GIPSA-lab, Grenoble, France, in 2014.",
+  "methods_description": "Pairs of participants played Brain Invaders 2 in three randomized conditions: Solo1, Solo2, and Collaboration. Each game session had 9 levels with predefined alien configurations, and flashes were delivered in pseudo-random groups of 6 symbols (1:5 target to non-target ratio). EEG was recorded at 512 Hz with g.USBamp amplifiers and 32 Ag/AgCl wet electrodes per subject, referenced to the right earlobe with ground at Fz. Triggers were synchronized via a USB analog-to-digital converter. An adaptive Riemannian minimum-distance-to-mean classifier gave online feedback. In the solo conditions the non-playing participant watched a cross, which controls for fake inter-brain synchrony.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -43,12 +43,12 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "P300"
-    },
-    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "P300"
     },
     {
       "term": "hyperscanning"
@@ -58,9 +58,6 @@
     },
     {
       "term": "collaboration"
-    },
-    {
-      "term": "oddball paradigm"
     }
   ],
   "related_identifiers": [
@@ -107,5 +104,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "03d2ae78cd1567c85021a859b471c97d7e2065ed5064cc2b00cf3285eda0a146"
+  "source_hash": "ad0ff012f33b2af9d972a6547925820186cffeba230aa00acabf944692ace4b1"
 }
